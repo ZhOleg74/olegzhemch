@@ -1,0 +1,43 @@
+.Btn {
+  --bg-def: #111B47;
+  --textColor-def: #FFFFFF;
+  --font-def: 500 16px/26px "Roboto", Arial;
+}
+
+.Btn {
+  display: block;
+  padding: 3px 30px;
+  border: 2px solid #091133;
+  border-radius: 2px;
+  background: var(--bg-def);
+  color: var(--textColor-def);
+  font: var(--font-def);
+  text-align: center;
+}
+
+.Btn--w {
+  color: #091133;
+  background: none;
+}
+
+.SBtn {
+  display: block;
+  background: #111B47;
+  border-radius: 2px;
+  padding: 3px 15px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+  border: 2px solid #091133;
+}
+.SBtn--outline {
+  background: none;
+  color: #091133;
+}
+.SBtn--inline {
+  display: inline-block;
+}/*# sourceMappingURL=button.css.map */
