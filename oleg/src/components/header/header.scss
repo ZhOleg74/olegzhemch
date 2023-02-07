@@ -1,4 +1,5 @@
 @import "../button/button";
+@import "../nav/nav";
 
 .Header{
     background: #FFFFFF;
@@ -6,35 +7,20 @@
     font: 400 14px/24px 'Roboto', 'Arial';
     width: 1440px;
     height: 60px;
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 
-    &-left{
-        width: 400px;
-
-        &--nav{
-            margin-left: 96px;
-            display: flex;
-            justify-content: space-around; 
-        }
-   }
+    &-left {
+        margin-left: 156px;
+    }
     
-    &-middle{
-        width: 400px;
-        display: flex;
-        justify-content: center;
+    &-middle {
+        margin-right: 62px;
         font: 900 26px/38px 'Roboto', 'Arial';
         }
 
-    &-right{
-        width: 400px;
-        display: flex;
-        justify-content: center;
+    &-right {
+        margin-right: 150px;
     }
-}
-
-.NavBlock {
-    padding: 0px 10px;
-    
 }
