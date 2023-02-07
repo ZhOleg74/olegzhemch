@@ -1,0 +1,40 @@
+@import "../button/button";
+
+.Header{
+    background: #FFFFFF;
+    color: #505F98; 
+    font: 400 14px/24px 'Roboto', 'Arial';
+    width: 1440px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    &-left{
+        width: 400px;
+
+        &--nav{
+            margin-left: 96px;
+            display: flex;
+            justify-content: space-around; 
+        }
+   }
+    
+    &-middle{
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        font: 900 26px/38px 'Roboto', 'Arial';
+        }
+
+    &-right{
+        width: 400px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.NavBlock {
+    padding: 0px 10px;
+    
+}

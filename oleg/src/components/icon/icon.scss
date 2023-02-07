@@ -1,0 +1,16 @@
+$size: 21px;
+
+.Icon {
+    background: #E7ECFF;
+    height: $size;
+    width: $size;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.Icon > * {
+    max-height: $size;
+    max-width: $size;
+}

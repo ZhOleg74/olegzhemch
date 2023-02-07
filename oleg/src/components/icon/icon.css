@@ -1,0 +1,14 @@
+.Icon {
+  background: #E7ECFF;
+  height: 21px;
+  width: 21px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.Icon > * {
+  max-height: 21px;
+  max-width: 21px;
+}/*# sourceMappingURL=icon.css.map */
