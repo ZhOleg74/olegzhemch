@@ -1,0 +1,18 @@
+.NavBlock {
+  background: #FFFFFF;
+  color: #505F98;
+  font: 400 14px/24px "Roboto", "Arial";
+  padding: 2px 10px;
+}
+.NavBlock-center {
+  margin-left: 41px;
+}
+.NavBlock-right {
+  margin-left: 40px;
+}
+
+.Content-NavBlock {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+}/*# sourceMappingURL=nav.css.map */
