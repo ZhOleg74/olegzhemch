@@ -1,0 +1,18 @@
+@import '../text-block1/text-block1';
+@import '../../assets/styles/global';
+
+ 
+.Page3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    &-img {
+        margin-left: 0;
+    }
+
+    &-text {
+        margin-top: 0;
+    }
+
+}

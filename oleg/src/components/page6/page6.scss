@@ -1,0 +1,44 @@
+@import '../../assets/styles/global';
+@import '../../components/button/button';
+
+ 
+.Page {
+    width: 1060px;
+    height: 806px;
+    background: none no-repeat center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    
+    &-h1 {
+        color: #091133;
+        font: 500 36px/48px 'Roboto', 'Arial';
+
+    }
+
+    &-text {
+        padding: 20px 200px;
+        
+    }
+
+    &-price {
+        padding: 10px;
+        color: #222F65;
+        font: 500 50px/66px 'Roboto', 'Arial';
+    }
+
+    &-kit {
+        color: #222F65;
+        font: 400 16px/26px 'Roboto', 'Arial';
+    }
+     
+    &-simple {
+        color: #5D6970;
+        font: 400 14px/24px 'Roboto', 'Arial';
+    }
+
+    &-button {
+        margin-top: 0;
+    }
+}

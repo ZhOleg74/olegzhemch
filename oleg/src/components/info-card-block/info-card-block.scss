@@ -1,0 +1,10 @@
+@import "../info-card/info-card";
+
+.InfoCardBlock {
+    display: flex;
+    align-items: center;
+
+    &--icon2 {
+        margin-left: 30px;
+    }
+}

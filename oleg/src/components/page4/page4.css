@@ -1,0 +1,104 @@
+.Wrapper {
+  padding: 0 20px;
+  margin: 0 auto;
+  max-width: 1100px;
+  min-width: 768px;
+  width: 100%;
+}
+
+.helper, .helper * {
+  outline: 1px solid red;
+}
+
+* {
+  font: 400 16px/1.5em "Roboto", "Arial";
+  box-sizing: border-box;
+}
+
+.InfoCard {
+  width: 255px;
+}
+.InfoCard-Icon {
+  margin-top: 0;
+}
+.InfoCard-h1 {
+  color: #091133;
+  font: 500 16px/26px "Roboto", "Arial";
+  letter-spacing: 1px;
+  margin-top: 7px;
+}
+.InfoCard-text {
+  color: #5D6970;
+  font: 400 12px/18px "Roboto", "Arial";
+  margin-top: 7px;
+}
+
+.InfoCardBlock {
+  display: flex;
+  align-items: center;
+}
+.InfoCardBlock--icon2 {
+  margin-left: 30px;
+}
+
+.Wrapper {
+  padding: 0 20px;
+  margin: 0 auto;
+  max-width: 1100px;
+  min-width: 768px;
+  width: 100%;
+}
+
+.helper, .helper * {
+  outline: 1px solid red;
+}
+
+* {
+  font: 400 16px/1.5em "Roboto", "Arial";
+  box-sizing: border-box;
+}
+
+.TextBlock1 {
+  width: 540px;
+}
+.TextBlock1-h1 {
+  color: #091133;
+  font: 500 36px/48px "Roboto", "Arial";
+}
+.TextBlock1-text {
+  color: #6F7CB2;
+  font: 400 16px/26px "Roboto", "Arial";
+  margin-top: 16px;
+}
+.TextBlock1-infoCardBlock {
+  margin-top: 116px;
+}
+
+.Wrapper {
+  padding: 0 20px;
+  margin: 0 auto;
+  max-width: 1100px;
+  min-width: 768px;
+  width: 100%;
+}
+
+.helper, .helper * {
+  outline: 1px solid red;
+}
+
+* {
+  font: 400 16px/1.5em "Roboto", "Arial";
+  box-sizing: border-box;
+}
+
+.Page4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Page4-img {
+  margin-left: 0;
+}
+.Page4-text {
+  margin-top: 0;
+}/*# sourceMappingURL=page4.css.map */

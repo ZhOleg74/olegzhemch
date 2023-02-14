@@ -1,0 +1,26 @@
+@import "../button/button";
+@import "../../assets/styles/global"; 
+ 
+.FuterStart {
+    height: 139px;
+    padding: 80px 0px 58px;
+    color: #505F98;
+    font: 400 14px/24px 'Roboto', 'Arial';
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &-left {
+        margin-left: 0;
+    }
+    
+    &-center {
+        font: 900 26px/38px 'Roboto', 'Arial';
+        }
+
+    &-right {
+        width: 115px;
+        height: 30px; 
+    }
+} 

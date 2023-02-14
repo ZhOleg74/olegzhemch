@@ -1,0 +1,15 @@
+@import "../nav/nav";
+@import "../hero-content/hero-content";
+@import "../header/header";
+
+
+.HeroBlock {
+    &-header {
+       
+    }
+
+    &-content {
+        margin-top: 242px;
+    }
+}
+

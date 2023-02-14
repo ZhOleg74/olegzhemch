@@ -1,0 +1,28 @@
+@import '../button/button';
+@import '../../assets/styles/global';
+ 
+.HeroContent {
+    width: 540px;
+
+    &-h1 {
+        color: #091133;
+        font: 500 50px/66px 'Roboto', 'Arial';
+        letter-spacing: 1px;
+    }
+
+    &-text {
+        color: #505F98;
+        font: 400 18px/30px 'Roboto', 'Arial';
+        margin-top: 20px;
+    }
+
+    &-BtnBlock {
+        margin-top: 83px;
+        display: flex;
+
+        :not(:first-child){
+            margin-left: 34px;
+        }
+    }
+}
+

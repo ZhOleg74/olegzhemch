@@ -1,0 +1,26 @@
+@import '../../components/nav/nav';
+@import '../../components/icon/icon';
+@import '../../assets/styles/global';
+
+ 
+.FuterEnd {
+    height: 76px;
+    padding: 20px 0px 20px;
+    border-top: solid 1px #CDD1D4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    &-nav {
+        margin-left: 0;
+    }
+
+    &-icon {
+        margin-top: 0;
+
+        :not(:first-child){
+            margin-left: 21px;
+        }
+    }
+
+}

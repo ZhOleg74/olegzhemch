@@ -1,0 +1,34 @@
+.Wrapper {
+  padding: 0 20px;
+  margin: 0 auto;
+  max-width: 1100px;
+  min-width: 768px;
+  width: 100%;
+}
+
+.helper, .helper * {
+  outline: 1px solid red;
+}
+
+* {
+  font: 400 16px/1.5em "Roboto", "Arial";
+  box-sizing: border-box;
+}
+
+.InfoCard {
+  width: 255px;
+}
+.InfoCard-Icon {
+  margin-top: 0;
+}
+.InfoCard-h1 {
+  color: #091133;
+  font: 500 16px/26px "Roboto", "Arial";
+  letter-spacing: 1px;
+  margin-top: 7px;
+}
+.InfoCard-text {
+  color: #5D6970;
+  font: 400 12px/18px "Roboto", "Arial";
+  margin-top: 7px;
+}/*# sourceMappingURL=info-card.css.map */

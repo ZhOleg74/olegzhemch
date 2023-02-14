@@ -1,0 +1,67 @@
+.NavBlock {
+  color: #505F98;
+  font: 400 14px/24px "Roboto", "Arial";
+  padding: 2px 10px;
+}
+.NavBlock-center {
+  margin-left: 41px;
+}
+.NavBlock-right {
+  margin-left: 40px;
+}
+
+.Content-NavBlock {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Icon {
+  background: #E7ECFF;
+  height: 21px;
+  width: 21px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.Icon > * {
+  max-height: 21px;
+  max-width: 21px;
+}
+
+.Wrapper {
+  padding: 0 20px;
+  margin: 0 auto;
+  max-width: 1100px;
+  min-width: 768px;
+  width: 100%;
+}
+
+.helper, .helper * {
+  outline: 1px solid red;
+}
+
+* {
+  font: 400 16px/1.5em "Roboto", "Arial";
+  box-sizing: border-box;
+}
+
+.FuterEnd {
+  height: 76px;
+  padding: 20px 0px 20px;
+  border-top: solid 1px #CDD1D4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.FuterEnd-nav {
+  margin-left: 0;
+}
+.FuterEnd-icon {
+  margin-top: 0;
+}
+.FuterEnd-icon :not(:first-child) {
+  margin-left: 21px;
+}/*# sourceMappingURL=futer-end.css.map */

@@ -1,0 +1,17 @@
+@import '../../components/futer-start/futer-start';
+@import '../../components/futer-end/futer-end';
+@import "../../assets/styles/global"; 
+ 
+.FuterBlock {
+    background: #E7ECFF;
+    height: 216px;
+
+    &-top {
+        margin-top: 0px;
+    }
+
+    &-bottom {
+        margin-top: 0px;
+    }
+    
+}  
