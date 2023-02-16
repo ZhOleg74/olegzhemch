@@ -1,8 +1,21 @@
 @import "../../assets/styles/global"; 
-@import "../../components/page6/page6";
+@import "../page6/page6";
+@import "../futer-block/futer-block";
 
 
-.ContentWrFooter {
-    background: none no-repeat center;   
-    height: 100vh; 
+.ContentWrFooterStart {
+    background-image: url("../../assets/images/png/Rectangle.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    padding-bottom: 50px;
 } 
+
+.ContentWrFooterEnd {
+    background:#E7ECFF;
+}
+
+.ContentFooter {
+   margin: 0;
+}

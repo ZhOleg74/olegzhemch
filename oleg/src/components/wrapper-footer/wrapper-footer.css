@@ -1,3 +1,5 @@
+@charset "UTF-8";
+@import '../nav/nav.css';
 .Wrapper {
   padding: 0 20px;
   margin: 0 auto;
@@ -34,8 +36,8 @@
 
 .Btn {
   display: inline-block;
-  width: 165px;
-  height: 25px;
+  width: 160px;
+  height: 26px;
   padding: 3px 10px;
   border: 2px solid #091133;
   border-radius: 2px;
@@ -43,9 +45,10 @@
   color: #FFFFFF;
   font: 500 16px/26px "Roboto", "Arial";
   text-align: center;
-  max-width: 170px;
-  max-height: 30px;
   overflow: hidden;
+}
+.Btn--inline {
+  margin: 0;
 }
 .Btn--outline {
   background: none;
@@ -55,7 +58,7 @@
 .Page {
   width: 1060px;
   height: 806px;
-  background: none no-repeat center;
+  background: no-repeat center url(../../assets/images/png/Облако.png);
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -85,7 +88,158 @@
   margin-top: 0;
 }
 
-.ContentWrFooter {
-  background: none no-repeat center;
-  height: 100vh;
+.Btn {
+  display: inline-block;
+  width: 160px;
+  height: 26px;
+  padding: 3px 10px;
+  border: 2px solid #091133;
+  border-radius: 2px;
+  background: #111B47;
+  color: #FFFFFF;
+  font: 500 16px/26px "Roboto", "Arial";
+  text-align: center;
+  overflow: hidden;
+}
+.Btn--inline {
+  margin: 0;
+}
+.Btn--outline {
+  background: none;
+  color: #091133;
+}
+
+.Wrapper {
+  padding: 0 20px;
+  margin: 0 auto;
+  max-width: 1100px;
+  min-width: 768px;
+  width: 100%;
+}
+
+.helper, .helper * {
+  outline: 1px solid red;
+}
+
+* {
+  font: 400 16px/1.5em "Roboto", "Arial";
+  box-sizing: border-box;
+}
+
+.FuterStart {
+  padding: 60px 0px 41px;
+  color: #505F98;
+  font: 400 14px/24px "Roboto", "Arial";
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.FuterStart > * {
+  width: 33.3333333333%;
+}
+.FuterStart--left {
+  margin-left: 0;
+}
+.FuterStart--center {
+  font: 900 26px/38px "Roboto", "Arial";
+  text-align: center;
+}
+.FuterStart--right {
+  margin-left: 0;
+  text-align: right;
+}
+
+.Icon {
+  background: #E7ECFF;
+  height: 21px;
+  width: 21px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.Icon > * {
+  max-height: 21px;
+  max-width: 21px;
+}
+
+.Wrapper {
+  padding: 0 20px;
+  margin: 0 auto;
+  max-width: 1100px;
+  min-width: 768px;
+  width: 100%;
+}
+
+.helper, .helper * {
+  outline: 1px solid red;
+}
+
+* {
+  font: 400 16px/1.5em "Roboto", "Arial";
+  box-sizing: border-box;
+}
+
+.FuterEnd {
+  height: 76px;
+  padding: 20px 0px 20px;
+  border-top: solid 1px #CDD1D4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.FuterEnd-nav {
+  margin-left: 0;
+}
+.FuterEnd-icon {
+  margin-top: 0;
+}
+.FuterEnd-icon :not(:first-child) {
+  margin-left: 21px;
+}
+
+.Wrapper {
+  padding: 0 20px;
+  margin: 0 auto;
+  max-width: 1100px;
+  min-width: 768px;
+  width: 100%;
+}
+
+.helper, .helper * {
+  outline: 1px solid red;
+}
+
+* {
+  font: 400 16px/1.5em "Roboto", "Arial";
+  box-sizing: border-box;
+}
+
+.FuterBlock {
+  background: #E7ECFF;
+  height: 216px;
+}
+.FuterBlock-top {
+  margin-top: 0px;
+}
+.FuterBlock-bottom {
+  margin-top: 0px;
+}
+
+.ContentWrFooterStart {
+  background-image: url("../../assets/images/png/Rectangle.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  padding-bottom: 50px;
+}
+
+.ContentWrFooterEnd {
+  background: #E7ECFF;
+}
+
+.ContentFooter {
+  margin: 0;
 }/*# sourceMappingURL=wrapper-footer.css.map */

@@ -1,5 +1,7 @@
 .Btn {
-  width: 163px;
+  display: inline-block;
+  width: 165px;
+  height: 25px;
   padding: 3px 10px;
   border: 2px solid #091133;
   border-radius: 2px;
@@ -7,12 +9,11 @@
   color: #FFFFFF;
   font: 500 16px/26px "Roboto", "Arial";
   text-align: center;
-}
-.Btn--inline {
-  display: inline-block;
+  max-width: 165px;
+  max-height: 30px;
+  overflow: hidden;
 }
 .Btn--outline {
-  display: inline-block;
   background: none;
   color: #091133;
 }
@@ -27,6 +28,11 @@
 
 .helper, .helper * {
   outline: 1px solid red;
+}
+
+* {
+  font: 400 16px/1.5em "Roboto", "Arial";
+  box-sizing: border-box;
 }
 
 .HeroContent {

@@ -1,7 +1,7 @@
 .Btn {
     display: inline-block;
-    width: 165px;
-    height: 25px;
+    width: 160px;
+    height: 26px;
     padding: 3px 10px;
     border: 2px solid #091133;
     border-radius: 2px;
@@ -9,12 +9,11 @@
     color: #FFFFFF;
     font: 500 16px/26px 'Roboto', 'Arial';
     text-align: center;
-    max-width: 170px;
-    max-height: 30px;
     overflow: hidden;
     
 
     &--inline {
+        margin: 0;
         
     }
 

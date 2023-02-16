@@ -1,26 +1,29 @@
 @import "../button/button";
 @import "../../assets/styles/global"; 
+
  
 .FuterStart {
-    height: 139px;
-    padding: 80px 0px 58px;
+    padding: 60px 0px 41px;
     color: #505F98;
     font: 400 14px/24px 'Roboto', 'Arial';
-    height: 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 
-    &-left {
-        margin-left: 0;
+    > * {
+        width: calc(100%/3);
+    }
+    &--left {
+        margin-left: 0;   
     }
     
-    &-center {
+    &--center {
         font: 900 26px/38px 'Roboto', 'Arial';
+        text-align: center;
         }
 
-    &-right {
-        width: 115px;
-        height: 30px; 
+    &--right {
+        margin-left: 0;
+        text-align: right;
     }
 } 

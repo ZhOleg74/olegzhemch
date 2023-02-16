@@ -1,17 +1,11 @@
 .NavBlock {
   color: #505F98;
   font: 400 14px/24px "Roboto", "Arial";
-  padding: 2px 10px;
-}
-.NavBlock-center {
-  margin-left: 41px;
-}
-.NavBlock-right {
-  margin-left: 40px;
-}
-
-.Content-NavBlock {
+  padding: 2px 5px;
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
+}
+.NavBlock :not(:first-child) {
+  margin-left: 34px;
 }/*# sourceMappingURL=nav.css.map */

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .Wrapper {
   padding: 0 20px;
   margin: 0 auto;
@@ -17,8 +18,8 @@
 
 .Btn {
   display: inline-block;
-  width: 165px;
-  height: 25px;
+  width: 160px;
+  height: 26px;
   padding: 3px 10px;
   border: 2px solid #091133;
   border-radius: 2px;
@@ -26,9 +27,10 @@
   color: #FFFFFF;
   font: 500 16px/26px "Roboto", "Arial";
   text-align: center;
-  max-width: 170px;
-  max-height: 30px;
   overflow: hidden;
+}
+.Btn--inline {
+  margin: 0;
 }
 .Btn--outline {
   background: none;
@@ -38,7 +40,7 @@
 .Page {
   width: 1060px;
   height: 806px;
-  background: none no-repeat center;
+  background: no-repeat center url(../../assets/images/png/Облако.png);
   display: flex;
   flex-direction: column;
   text-align: center;
