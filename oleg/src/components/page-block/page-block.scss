@@ -1,0 +1,35 @@
+@import "../../assets/styles/global"; 
+@import "../wrapper-header/wrapper-header";
+@import "../page2/page2";
+@import "../page3/page3";
+@import "../page4/page4";
+@import "../page5/page5";
+@import "../page6/page6";
+
+
+.PageBox {
+    &-page1 {
+        margin-top: 0px;
+    }
+
+    &-page2 {
+        margin-top: 200px;
+    }
+
+    &-page3 {
+        margin-top: 200px;
+    }
+
+    &-page4 {
+        margin-top: 200px;
+    }
+
+    &-page5 {
+        margin-top: 200px;
+    }
+
+    &-page6 {
+        margin-top: 200px;
+    } 
+
+}

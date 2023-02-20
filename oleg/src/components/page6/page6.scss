@@ -1,9 +1,13 @@
 @import '../../assets/styles/global';
-@import '../../components/button/button';
+@import '../button/button';
 
- 
+.Page6 {
+    background-image: url("../../assets/images/png/Rectangle.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .Page {
-    width: 1060px;
     height: 806px;
     background: no-repeat center url(../../assets/images/png/Облако.png);
     display: flex;
@@ -14,12 +18,10 @@
     &-h1 {
         color: #091133;
         font: 500 36px/48px 'Roboto', 'Arial';
-
     }
 
     &-text {
-        padding: 20px 200px;
-        
+        padding: 20px 200px;   
     }
 
     &-price {

@@ -1,22 +1,18 @@
 .NavBlock {
   color: #505F98;
   font: 400 14px/24px "Roboto", "Arial";
-  padding: 2px 10px;
+  padding: 2px 5px;
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
 }
-.NavBlock-link {
-  margin-left: 0px;
-}
-.NavBlock-link :not(:first-child) {
+.NavBlock :not(:first-child) {
   margin-left: 34px;
 }
 
 .Btn {
   display: inline-block;
-  width: 165px;
-  height: 25px;
+  width: 160px;
   padding: 3px 10px;
   border: 2px solid #091133;
   border-radius: 2px;
@@ -24,9 +20,12 @@
   color: #FFFFFF;
   font: 500 16px/26px "Roboto", "Arial";
   text-align: center;
-  max-width: 165px;
-  max-height: 30px;
+  max-width: 180px;
+  max-height: 36px;
   overflow: hidden;
+}
+.Btn--inline {
+  margin: 0;
 }
 .Btn--outline {
   background: none;
@@ -37,7 +36,7 @@
   padding: 0 20px;
   margin: 0 auto;
   max-width: 1100px;
-  min-width: 768px;
+  min-width: 600px;
   width: 100%;
 }
 
@@ -73,8 +72,7 @@
 
 .Btn {
   display: inline-block;
-  width: 165px;
-  height: 25px;
+  width: 160px;
   padding: 3px 10px;
   border: 2px solid #091133;
   border-radius: 2px;
@@ -82,9 +80,12 @@
   color: #FFFFFF;
   font: 500 16px/26px "Roboto", "Arial";
   text-align: center;
-  max-width: 165px;
-  max-height: 30px;
+  max-width: 180px;
+  max-height: 36px;
   overflow: hidden;
+}
+.Btn--inline {
+  margin: 0;
 }
 .Btn--outline {
   background: none;
@@ -94,15 +95,12 @@
 .NavBlock {
   color: #505F98;
   font: 400 14px/24px "Roboto", "Arial";
-  padding: 2px 10px;
+  padding: 2px 5px;
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
 }
-.NavBlock-link {
-  margin-left: 0px;
-}
-.NavBlock-link :not(:first-child) {
+.NavBlock :not(:first-child) {
   margin-left: 34px;
 }
 
@@ -110,7 +108,7 @@
   padding: 0 20px;
   margin: 0 auto;
   max-width: 1100px;
-  min-width: 768px;
+  min-width: 600px;
   width: 100%;
 }
 
@@ -134,6 +132,9 @@
 .Header-middle {
   font: 900 26px/38px "Roboto", "Arial";
 }
+.HeroBlock-header {
+  margin: 0;
+}
 .HeroBlock-content {
   margin-top: 242px;
 }
@@ -142,7 +143,7 @@
   padding: 0 20px;
   margin: 0 auto;
   max-width: 1100px;
-  min-width: 768px;
+  min-width: 600px;
   width: 100%;
 }
 
@@ -155,7 +156,10 @@
   box-sizing: border-box;
 }
 
-.ContentWrHead {
-  background: none no-repeat right top;
-  height: 100vh;
+.ContentImg {
+  background-image: url("../../assets/images/png/designer_1.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 1103px;
+  display: flex;
 }/*# sourceMappingURL=wrapper-header.css.map */

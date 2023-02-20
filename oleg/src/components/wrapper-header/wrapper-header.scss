@@ -2,7 +2,10 @@
 @import "../../assets/styles/global"; 
 
 
-.ContentWrHead {
-    background: none no-repeat right top;   
-    height: 100vh; 
+.ContentImg {
+    background-image: url("../../assets/images/png/designer_1.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 1103px;
+    display: flex; 
 } 

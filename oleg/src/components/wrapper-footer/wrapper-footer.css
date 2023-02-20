@@ -4,7 +4,7 @@
   padding: 0 20px;
   margin: 0 auto;
   max-width: 1100px;
-  min-width: 768px;
+  min-width: 600px;
   width: 100%;
 }
 
@@ -21,7 +21,7 @@
   padding: 0 20px;
   margin: 0 auto;
   max-width: 1100px;
-  min-width: 768px;
+  min-width: 600px;
   width: 100%;
 }
 
@@ -37,7 +37,6 @@
 .Btn {
   display: inline-block;
   width: 160px;
-  height: 26px;
   padding: 3px 10px;
   border: 2px solid #091133;
   border-radius: 2px;
@@ -45,6 +44,8 @@
   color: #FFFFFF;
   font: 500 16px/26px "Roboto", "Arial";
   text-align: center;
+  max-width: 180px;
+  max-height: 36px;
   overflow: hidden;
 }
 .Btn--inline {
@@ -56,7 +57,6 @@
 }
 
 .Page {
-  width: 1060px;
   height: 806px;
   background: no-repeat center url(../../assets/images/png/Облако.png);
   display: flex;
@@ -91,7 +91,6 @@
 .Btn {
   display: inline-block;
   width: 160px;
-  height: 26px;
   padding: 3px 10px;
   border: 2px solid #091133;
   border-radius: 2px;
@@ -99,6 +98,8 @@
   color: #FFFFFF;
   font: 500 16px/26px "Roboto", "Arial";
   text-align: center;
+  max-width: 180px;
+  max-height: 36px;
   overflow: hidden;
 }
 .Btn--inline {
@@ -113,7 +114,7 @@
   padding: 0 20px;
   margin: 0 auto;
   max-width: 1100px;
-  min-width: 768px;
+  min-width: 600px;
   width: 100%;
 }
 
@@ -168,7 +169,7 @@
   padding: 0 20px;
   margin: 0 auto;
   max-width: 1100px;
-  min-width: 768px;
+  min-width: 600px;
   width: 100%;
 }
 
@@ -203,7 +204,7 @@
   padding: 0 20px;
   margin: 0 auto;
   max-width: 1100px;
-  min-width: 768px;
+  min-width: 600px;
   width: 100%;
 }
 
@@ -218,7 +219,7 @@
 
 .FuterBlock {
   background: #E7ECFF;
-  height: 216px;
+  height: 220px;
 }
 .FuterBlock-top {
   margin-top: 0px;
@@ -227,7 +228,7 @@
   margin-top: 0px;
 }
 
-.ContentWrFooterStart {
+.ContentFooter-Start {
   background-image: url("../../assets/images/png/Rectangle.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -236,7 +237,7 @@
   padding-bottom: 50px;
 }
 
-.ContentWrFooterEnd {
+.ContentFooter-End {
   background: #E7ECFF;
 }
 
