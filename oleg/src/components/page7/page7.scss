@@ -1,22 +1,32 @@
+@import "../button/button";
 @import "../../assets/styles/global"; 
-@import "../page6/page6";
-@import "../futer-block/futer-block";
 
+.Page7 {
+    background: #E7ECFF;
+}
 
+.FuterStart {
+    padding: 60px 0px 41px;
+    color: #505F98;
+    font: 400 14px/24px 'Roboto', 'Arial';
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
-.ContentFooter-Start {
-    background-image: url("../../assets/images/png/Rectangle.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    padding-bottom: 50px;   
+    & > * {
+        width: calc(100%/3);
+    }
+    &--left {
+        margin-left: 0;   
+    }
+    
+    &--center {
+        font: 900 26px/38px 'Roboto', 'Arial';
+        text-align: center;
+        }
+
+    &--right {
+        margin-left: 0;
+        text-align: right;
+    }     
 } 
-
-.ContentFooter-End {
-    background:#E7ECFF;
-}
-
-.ContentFooter {
-   margin: 0;
-}

@@ -56,6 +56,12 @@
   color: #091133;
 }
 
+.Page6 {
+  background-image: url("../../assets/images/png/Rectangle.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .Page {
   height: 806px;
   background: no-repeat center url(../../assets/images/png/Облако.png);
