@@ -45,6 +45,12 @@
   padding-bottom: 50px;
 }
 
+@media (max-width: 1440px) {
+  .Page6 {
+    background-image: url("../../assets/images/png/Rectangle.png");
+    background-size: auto;
+  }
+}
 .Page {
   height: 806px;
   background: no-repeat center url(../../assets/images/png/Облако.png);
