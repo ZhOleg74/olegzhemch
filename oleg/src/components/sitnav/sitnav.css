@@ -1,0 +1,30 @@
+.Sidenav {
+  display: inline-flex;
+  flex-direction: column;
+  background: black;
+  padding: 10px 10px;
+  box-sizing: border-box;
+  height: 100vh;
+}
+.Sidenav-link {
+  color: #818181;
+  font: 500 22px/28px Arial;
+  padding: 5px 10px;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+.Sidenav-link:hover {
+  color: white;
+}
+
+.Main {
+  padding: 15px;
+}
+
+.Page {
+  display: flex;
+}
+.Page-sidenav > * {
+  position: sticky;
+  top: 0px;
+}/*# sourceMappingURL=sitnav.css.map */
